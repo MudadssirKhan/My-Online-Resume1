@@ -116,6 +116,58 @@
     .button button:hover {
         background-color: rgb(174, 174, 241);
     }
+
+    .vid {
+        width: 300px;
+        display: block;
+        margin: 40px auto;
+        border-radius: 20px;
+    }
+
+    .arrow {
+        color: white;
+        text-align: center;
+        font-size: 70px;
+        margin: 0;
+    }
+
+    .advice {
+        background-color: white;
+        text-align: center;
+        width: 150px;
+        margin: 20px auto;
+        padding: 20px 70px;
+        border-radius: 40px;
+        cursor: pointer;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        user-select: none;
+    }
+
+    .advice-content {
+        max-height: 0;
+        /* folded */
+        overflow: hidden;
+        background: #fff;
+        border-radius: 20px;
+        margin: 10px auto;
+        width: 200px;
+        padding: 0 20px;
+        /* side padding only when closed */
+        box-sizing: border-box;
+        transition: max-height 0.4s ease, padding 0.3s ease;
+        text-align: left;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    /* When open */
+    .advice-content.open {
+        max-height: 200px;
+        /* adjust based on content */
+        padding: 20px;
+    }
 }
 
 /* Large phones / phablets */
@@ -156,7 +208,8 @@
     .button button:hover {
         background-color: rgb(174, 174, 241);
     }
-        .vid {
+
+    .vid {
         width: 380px;
         display: block;
         margin: 40px auto;
@@ -247,7 +300,8 @@
     .button button:hover {
         background-color: rgb(174, 174, 241);
     }
-        .vid {
+
+    .vid {
         width: 400px;
         display: block;
         margin: 40px auto;
@@ -336,7 +390,8 @@
     .button button:hover {
         background-color: rgb(174, 174, 241);
     }
-        .vid {
+
+    .vid {
         width: 600px;
         display: block;
         margin: 40px auto;
