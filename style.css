@@ -1,0 +1,479 @@
+/* Extra small devices (small phones) */
+@media (max-width: 320px) {
+
+    /* Styles for very small screens */
+    .wel {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 90px 0 0 0;
+    }
+
+    .button {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 6px 30px;
+        margin: 10px;
+        border-radius: 10px;
+        color: rgb(59, 59, 221);
+        background-color: rgb(213, 223, 255);
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer
+    }
+
+    .button button:hover {
+        background-color: rgb(174, 174, 241);
+    }
+}
+
+/* Small to medium phones */
+@media (min-width: 321px) and (max-width: 375px) {
+
+    /* Styles for iPhone SE, 6/7/8, etc. */
+    .wel {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 90px 0 0 0;
+    }
+
+    .button {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 6px 30px;
+        margin: 10px;
+        border-radius: 10px;
+        color: rgb(59, 59, 221);
+        background-color: rgb(213, 223, 255);
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer
+    }
+
+    .button button:hover {
+        background-color: rgb(174, 174, 241);
+    }
+}
+
+/* Medium to large phones */
+@media (min-width: 376px) and (max-width: 414px) {
+
+    /* Styles for iPhone Plus, XR, many Androids */
+    .wel {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 90px 0 0 0;
+    }
+
+    .button {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 6px 30px;
+        margin: 10px;
+        border-radius: 10px;
+        color: rgb(59, 59, 221);
+        background-color: rgb(213, 223, 255);
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer
+    }
+
+    .button button:hover {
+        background-color: rgb(174, 174, 241);
+    }
+}
+
+/* Large phones / phablets */
+@media (min-width: 415px) and (max-width: 480px) {
+
+    /* Styles for Pro Max, Galaxy Note, etc. */
+    .wel {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 90px 0 0 0;
+    }
+
+    .button {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 6px 30px;
+        margin: 10px;
+        border-radius: 10px;
+        color: rgb(59, 59, 221);
+        background-color: rgb(213, 223, 255);
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer
+    }
+
+    .button button:hover {
+        background-color: rgb(174, 174, 241);
+    }
+        .vid {
+        width: 380px;
+        display: block;
+        margin: 40px auto;
+        border-radius: 20px;
+    }
+
+    .arrow {
+        color: white;
+        text-align: center;
+        font-size: 70px;
+        margin: 0;
+    }
+
+    .advice {
+        background-color: white;
+        text-align: center;
+        width: 150px;
+        margin: 20px auto;
+        padding: 20px 70px;
+        border-radius: 40px;
+        cursor: pointer;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        user-select: none;
+    }
+
+    .advice-content {
+        max-height: 0;
+        /* folded */
+        overflow: hidden;
+        background: #fff;
+        border-radius: 20px;
+        margin: 10px auto;
+        width: 200px;
+        padding: 0 20px;
+        /* side padding only when closed */
+        box-sizing: border-box;
+        transition: max-height 0.4s ease, padding 0.3s ease;
+        text-align: left;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    /* When open */
+    .advice-content.open {
+        max-height: 200px;
+        /* adjust based on content */
+        padding: 20px;
+    }
+}
+
+/* Extra large phones / small tablets */
+@media (min-width: 481px) and (max-width: 600px) {
+
+    /* Styles for big Androids, foldables */
+    .wel {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 90px 0 0 0;
+    }
+
+    .button {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 6px 30px;
+        margin: 10px;
+        border-radius: 10px;
+        color: rgb(59, 59, 221);
+        background-color: rgb(213, 223, 255);
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer
+    }
+
+    .button button:hover {
+        background-color: rgb(174, 174, 241);
+    }
+        .vid {
+        width: 400px;
+        display: block;
+        margin: 40px auto;
+        border-radius: 20px;
+    }
+
+    .arrow {
+        color: white;
+        text-align: center;
+        font-size: 100px;
+        margin: 0;
+    }
+
+    .advice {
+        background-color: white;
+        text-align: center;
+        width: 100px;
+        margin: 20px auto;
+        padding: 20px 70px;
+        border-radius: 40px;
+        cursor: pointer;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        user-select: none;
+    }
+
+    .advice-content {
+        max-height: 0;
+        /* folded */
+        overflow: hidden;
+        background: #fff;
+        border-radius: 20px;
+        margin: 10px auto;
+        width: 250px;
+        padding: 0 20px;
+        /* side padding only when closed */
+        box-sizing: border-box;
+        transition: max-height 0.4s ease, padding 0.3s ease;
+        text-align: left;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    /* When open */
+    .advice-content.open {
+        max-height: 200px;
+        /* adjust based on content */
+        padding: 20px;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width:1100px) {
+    .wel {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 90px 0 0 0;
+    }
+
+    .button {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 6px 30px;
+        margin: 10px;
+        border-radius: 10px;
+        color: rgb(59, 59, 221);
+        background-color: rgb(213, 223, 255);
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer
+    }
+
+    .button button:hover {
+        background-color: rgb(174, 174, 241);
+    }
+        .vid {
+        width: 600px;
+        display: block;
+        margin: 40px auto;
+        border-radius: 20px;
+    }
+
+    .arrow {
+        color: white;
+        text-align: center;
+        font-size: 100px;
+        margin: 0;
+    }
+
+    .advice {
+        background-color: white;
+        text-align: center;
+        width: 200px;
+        margin: 20px auto;
+        padding: 20px 70px;
+        border-radius: 40px;
+        cursor: pointer;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        user-select: none;
+    }
+
+    .advice-content {
+        max-height: 0;
+        /* folded */
+        overflow: hidden;
+        background: #fff;
+        border-radius: 20px;
+        margin: 10px auto;
+        width: 300px;
+        padding: 0 20px;
+        /* side padding only when closed */
+        box-sizing: border-box;
+        transition: max-height 0.4s ease, padding 0.3s ease;
+        text-align: left;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    /* When open */
+    .advice-content.open {
+        max-height: 200px;
+        /* adjust based on content */
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1400px) {
+    .wel {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 90px 0 0 0;
+    }
+
+    .button {
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 6px 30px;
+        margin: 10px;
+        border-radius: 10px;
+        color: rgb(59, 59, 221);
+        background-color: rgb(213, 223, 255);
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer
+    }
+
+    .button button:hover {
+        background-color: rgb(174, 174, 241);
+    }
+
+    .vid {
+        width: 900px;
+        display: block;
+        margin: 40px auto;
+        border-radius: 20px;
+    }
+
+    .arrow {
+        color: white;
+        text-align: center;
+        font-size: 150px;
+        margin: 0;
+    }
+
+    .advice {
+        background-color: white;
+        text-align: center;
+        width: 300px;
+        margin: 20px auto;
+        padding: 20px 70px;
+        border-radius: 40px;
+        cursor: pointer;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        user-select: none;
+    }
+
+    .advice-content {
+        max-height: 0;
+        /* folded */
+        overflow: hidden;
+        background: #fff;
+        border-radius: 20px;
+        margin: 10px auto;
+        width: 380px;
+        padding: 0 20px;
+        /* side padding only when closed */
+        box-sizing: border-box;
+        transition: max-height 0.4s ease, padding 0.3s ease;
+        text-align: left;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    /* When open */
+    .advice-content.open {
+        max-height: 200px;
+        /* adjust based on content */
+        padding: 20px;
+    }
+}
